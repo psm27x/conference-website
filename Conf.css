@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark Gray for text */
+    background-color: #F5F5F5; /* Light Gray background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #4B0082, #9370DB); /* Dark to Light Purple */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FF8C00; /* Orange button */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #FFA500; /* Lighter Orange on hover */
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    text-align: center;
+    color: #4B0082; /* Dark Purple for section headings */
+}
+
+/* Details Grid */
+.details-grid p {
+    font-size: 1.1rem;
+}
+
+.details-grid p strong {
+    color: #9370DB; /* Light Purple for highlights */
+}
+
+/* Dates List */
+.dates-list li {
+    margin-bottom: 10px;
+}
+
+/* Table Styles */
+.registration-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.registration-table th,
+.registration-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.registration-table th {
+    background-color: #4B0082; /* Dark Purple header */
+    color: white;
+}
+
+.registration-table tr:nth-child(even) {
+    background-color: #E6E6FA; /* Lavender for alternating rows */
+}
+
+.registration-table tr:nth-child(odd) {
+    background-color: white; /* White for odd rows */
+}
+
+/* QR Code Styles */
+.qr-code-image {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center the image */
+}
+
+#qr-code h2 {
+    text-align: center;
+    color: #4B0082; /* Dark Purple for heading */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #4B0082; /* Dark Purple footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
